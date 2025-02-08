@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+<body class="text-white bg-gray-900">
+  <!-- Navbar -->
+  <nav class="fixed top-0 z-50 w-full p-6 bg-gray-800">
+    <div class="container flex items-center justify-between mx-auto">
+      <a href="#" class="text-2xl font-bold text-indigo-400">My Portfolio</a>
+      <ul class="flex space-x-6">
+        <li><a href="#about" class="hover:text-indigo-400">About</a></li>
+        <li><a href="#projects" class="hover:text-indigo-400">Projects</a></li>
+        <li><a href="#skills" class="hover:text-indigo-400">Skills</a></li>
+        <li><a href="#contact" class="hover:text-indigo-400">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="flex items-center justify-center h-screen bg-gray-800">
+    <div class="text-center">
+      <h1 class="mb-4 text-5xl font-bold">Hi, I'm <span class="text-indigo-400">Vivek</span></h1>
+      <p class="text-xl text-gray-300">A passionate developer who loves building amazing things.</p>
+      <a href="#projects" class="inline-block px-6 py-3 mt-6 text-white bg-indigo-600 rounded-lg hover:bg-indigo-700">View My Work</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 bg-gray-900">
+    <div class="container px-6 mx-auto">
+      <h2 class="mb-8 text-3xl font-bold text-center">About Me</h2>
+      <div class="flex flex-col items-center md:flex-row">
+        <div class="md:w-1/2">
+          <img src="../2202031000047.jpeg" alt="Profile Picture" class="h-100 w-50 hadow-lg wrounded-lg">
+        </div>
+        <div class="mt-8 md:w-1/2 md:mt-0 md:ml-8">
+          <p class="text-3xl text-gray-300 leadin-relaxed">
+            Hello! I'm a web developer with a passion for creating beautiful and functional websites. I specialize in front-end development using modern technologies like HTML5, CSS3, JavaScript, and frameworks like Tailwind CSS and React.
+          </p>
+          <p class="mt-4 text-3xl leading-relaxed text-gray-300">
+            I enjoy solving complex problems and turning ideas into reality. When I'm not coding, you can find me exploring new technologies or contributing to open-source projects.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-20 bg-gray-800">
+    <div class="container px-6 mx-auto">
+      <h2 class="mb-8 text-3xl font-bold text-center">My Projects</h2>
+      <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <!-- Project 1 -->
+        <div class="p-6 bg-gray-700 rounded-lg shadow-lg">
+          <h3 class="mb-2 text-xl font-bold">Project 1</h3>
+          <p class="text-gray-300">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi blanditiis, repudiandae suscipit incidunt ut delectus possimus reprehenderit temporibus nam similique?</p>
+          <a href="./alternatives.html" class="inline-block mt-4 text-indigo-400 hover:text-indigo-300">View Project →</a>
+        </div>
+        <!-- Project 2 -->
+        <div class="p-6 bg-gray-700 rounded-lg shadow-lg">
+          <h3 class="mb-2 text-xl font-bold">Project 2</h3>
+          <p class="text-gray-300">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti dolorem perspiciatis soluta voluptates ipsa. Inventore vel temporibus reiciendis possimus nam.</p>
+          <a href="./alternatives.html" class="inline-block mt-4 text-indigo-400 hover:text-indigo-300">View Project →</a>
+        </div>
+        <!-- Project 3 -->
+        <div class="p-6 bg-gray-700 rounded-lg shadow-lg">
+          <h3 class="mb-2 text-xl font-bold">Project 3</h3>
+          <p class="text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis asperiores ea aspernatur tenetur praesentium error quo quidem fugiat earum nostrum.</p>
+          <a href="./alternatives.html" class="inline-block mt-4 text-indigo-400 hover:text-indigo-300">View Project →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-20 bg-gray-900">
+    <div class="container px-6 mx-auto">
+      <h2 class="mb-8 text-3xl font-bold text-center">Skills</h2>
+      <div class="grid grid-cols-2 gap-6 md:grid-cols-4">
+        <div class="text-center">
+          <div class="mb-2 text-4xl text-indigo-400">💻</div>
+          <h3 class="text-xl font-bold">HTML5</h3>
+        </div>
+        <div class="text-center">
+          <div class="mb-2 text-4xl text-indigo-400">🎨</div>
+          <h3 class="text-xl font-bold">CSS3</h3>
+        </div>
+        <div class="text-center">
+          <div class="mb-2 text-4xl text-indigo-400">🚀</div>
+          <h3 class="text-xl font-bold">JavaScript</h3>
+        </div>
+        <div class="text-center">
+          <div class="mb-2 text-4xl text-indigo-400">🔧</div>
+          <h3 class="text-xl font-bold">React</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-gray-800">
+    <div class="container px-6 mx-auto">
+      <h2 class="mb-8 text-3xl font-bold text-center">Contact Me</h2>
+      <form class="max-w-lg mx-auto">
+        <div class="mb-4">
+          <input type="text" placeholder="Your Name" class="w-full p-3 text-white bg-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400">
+        </div>
+        <div class="mb-4">
+          <input type="email" placeholder="Your Email" class="w-full p-3 text-white bg-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400">
+        </div>
+        <div class="mb-4">
+          <textarea placeholder="Your Message" rows="5" class="w-full p-3 text-white bg-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400"></textarea>
+        </div>
+        <button type="submit" class="w-full px-6 py-3 text-white bg-indigo-600 rounded-lg hover:bg-indigo-700">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-6 bg-gray-900">
+    <div class="container px-6 mx-auto text-center">
+      <p class="text-gray-300">© 2025 Vivek. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
